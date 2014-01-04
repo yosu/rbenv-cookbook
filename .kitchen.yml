@@ -10,6 +10,7 @@ platforms:
   - name: centos-6.4
 
 suites:
-  - name: default
+  - name: example
     run_list:
+      - "recipe[rbenv::example]"
     attributes:
