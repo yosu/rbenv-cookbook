@@ -14,13 +14,6 @@ Recipes
 ### default
 Do nothing. Empty recipe for including LWRPs.
 
-### example
-An example recipe that installs rbenv to 'vagrant' user.
-
-This recipe installs:
-- rbenv
-- ruby-build (plugin)
-
 Resources/Providers
 -------------------
 ### rbenv
