@@ -15,5 +15,4 @@
 # limitations under the License.
 #
 
-rbenv "vagrant" do
-end
+rbenv "vagrant"
