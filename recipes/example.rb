@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-rbenv "vagrant"
+rbenv 'vagrant'

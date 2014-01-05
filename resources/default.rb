@@ -20,10 +20,10 @@ default_action :install
 RBENV_REPOSITORY = 'git://github.com/sstephenson/rbenv.git'
 RUBY_BUILD_REPOSITORY = 'git://github.com/sstephenson/ruby-build.git'
 
-attribute :user, :kind_of => String, :name_attribute => true
-attribute :directory, :kind_of => String, :default => '.rbenv'
-attribute :git_repository, :kind_of => String, :default => RBENV_REPOSITORY
-attribute :git_reference, :kind_of => String, :default => 'master'
-attribute :ruby_build_repository, :kind_of => String, :default => RUBY_BUILD_REPOSITORY
-attribute :ruby_build_reference, :kind_of => String, :default => 'master'
-attribute :profile, :kind_of => String, :default => '.bash_profile'
+attribute :user, kind_of: String, name_attribute: true
+attribute :directory, kind_of: String, default: '.rbenv'
+attribute :git_repository, kind_of: String, default: RBENV_REPOSITORY
+attribute :git_reference, kind_of: String, default: 'master'
+attribute :ruby_build_repository, kind_of: String, default: RUBY_BUILD_REPOSITORY
+attribute :ruby_build_reference, kind_of: String, default: 'master'
+attribute :profile, kind_of: String, default: '.bash_profile'

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "rbenv" do
+describe 'rbenv' do
   let(:path) { '/home/vagrant/.rbenv/bin' }
 
   describe command('rbenv -v') do
@@ -9,7 +9,7 @@ describe "rbenv" do
   end
 end
 
-describe "ruby-build" do
+describe 'ruby-build' do
   describe file('/home/vagrant/.rbenv/plugins/ruby-build') do
     it { should be_directory }
   end

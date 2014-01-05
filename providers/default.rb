@@ -33,7 +33,7 @@ end
 def update_profile
   create_profile_if_missing
 
-  rbenv_bin = ::File.join(rbenv_root, 'bin');
+  rbenv_bin = ::File.join(rbenv_root, 'bin')
 
   append_to_profile(%Q{export PATH="#{rbenv_bin}:$PATH"})
   append_to_profile('eval "$(rbenv init -)"')
@@ -62,7 +62,7 @@ def create_profile_if_missing
 end
 
 def install_git
-  resource = package "git" do
+  resource = package 'git' do
     action :nothing
   end
   resource.run_action(:install)
@@ -107,7 +107,7 @@ def home_dir
 end
 
 def rbenv_root
- ::File.join(home_dir, @new_resource.directory) 
+  ::File.join(home_dir, @new_resource.directory)
 end
 
 def profile_path
@@ -115,5 +115,5 @@ def profile_path
 end
 
 def rbenv_plugin_dir
- ::File.join(rbenv_root, 'plugins')
+  ::File.join(rbenv_root, 'plugins')
 end
