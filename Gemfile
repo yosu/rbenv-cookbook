@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 
-gem 'berkshelf'
+gem 'berkshelf', '~> 2.0'
 
 group :test do
-  gem 'foodcritic'
+  gem 'foodcritic', '~> 3.0'
   gem 'rubocop'
 end
 
 group :development do
-  gem 'guard'
+  gem 'guard', '~> 1.8'
   gem 'guard-foodcritic'
   gem 'guard-rubocop'
 end
