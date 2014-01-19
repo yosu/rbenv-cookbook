@@ -1,6 +1,7 @@
 rbenv Cookbook
 ==============
 [![Build Status](https://travis-ci.org/yosu/rbenv-cookbook.png?branch=master)](https://travis-ci.org/yosu/rbenv-cookbook)
+[![Dependency Status](https://gemnasium.com/yosu/rbenv-cookbook.png)](https://gemnasium.com/yosu/rbenv-cookbook)
 
 Installs rbenv to user.
 
