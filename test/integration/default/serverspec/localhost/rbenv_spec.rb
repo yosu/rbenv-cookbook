@@ -5,7 +5,7 @@ describe 'rbenv' do
 
   describe command('rbenv -v') do
     it { should return_exit_status 0 }
-    its(:stdout) { should match /rbenv/ }
+    its(:stdout) { should match(/rbenv/) }
   end
 end
 
